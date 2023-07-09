@@ -1,0 +1,17 @@
+nav {
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  width: 90%;
+}
+nav .nav-link.active {
+  color: var(--color-blue) !important;
+}
+.dropdown-menu,
+.dropdown-item {
+  text-align: center;
+  width: fit-content;
+}
+.dropdown-item {
+  margin: auto;
+}

@@ -1,0 +1,60 @@
+.card-pro {
+  width: 95%;
+  background-color: #eeeded;
+  overflow: hidden;
+  height: 200px;
+}
+.card-pro > img {
+  width: 40%;
+}
+.card-pro > img + div {
+  width: 60%;
+}
+.card-pro > div > p {
+  font-size: 18px;
+}
+.card-pro > div > p + span {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.card-pro > div > p + span svg {
+  font-size: 20px;
+}
+.pageitem {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background-color: #666;
+  border-radius: 50% !important;
+}
+.page-item {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% !important;
+  margin: 10px;
+  background: #aaa;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-item .page-link {
+  width: 110%;
+  height: 110%;
+  padding: 0;
+  border-radius: 50% !important;
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.page-item .page-link:hover {
+  background: var(--color-blue);
+}
+.selected .page-link {
+  background: var(--color-blue) !important;
+  color: white !important;
+  box-shadow: none;
+}

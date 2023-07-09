@@ -1,0 +1,123 @@
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  background-color: #f0f0f0;
+  display: block;
+  margin: 7px 0 !important;
+  border-radius: 15px;
+  border: none;
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 50%;
+  font-size: 18px !important;
+  height: 60px;
+}
+.forms > :nth-child(3) {
+  background-color: #f0f0f0;
+  display: block;
+  margin: 7px 0 !important;
+  border-radius: 15px;
+  border: none;
+  font-size: 25px;
+  padding: 15px 20px;
+  width: 50%;
+  height: 250px;
+  resize: none;
+  font-size: 22px;
+}
+::placeholder {
+  font-size: 22px;
+}
+.forms + button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px 50px;
+  font-size: 22px;
+}
+.contact .img1 {
+  width: 70%;
+  height: 350px;
+  background-image: url("../../assets/images/email-network-communication-perforated-paper-letter\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}
+.sliderItemC {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 0px 8px 1px #3c3c3c;
+}
+.sliderItemC img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.contact .img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 90%;
+}
+.contact .icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.contact .icons > :nth-child(1) {
+  background-color: #fff;
+  width: 55px;
+  height: 55px;
+}
+.contact .icons > :nth-child(2) {
+  background-image: linear-gradient(
+    45deg,
+    #fdf497 0%,
+    #fdf4fd 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.contact .icons > :nth-child(3) {
+  background-color: #38a8e0;
+}
+.contact .icons > :nth-child(4) {
+  background-color: #0dc143;
+}
+.contact .icons {
+  z-index: 99;
+  width: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact .myswiper {
+  position: relative;
+  top: -103px;
+  left: 15px;
+  z-index: 3333;
+}
+@media (max-width: 992px) {
+  input,
+  .forms > :nth-child(3) {
+    width: 100%;
+  }
+  .img2 {
+    width: 100% !important;
+  }
+  .contact .img1 {
+    width: 100%;
+  }
+}

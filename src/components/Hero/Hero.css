@@ -1,0 +1,13 @@
+.hero {
+  background-image: url("../../assets/images/patrick-tomasso-SVVTZtTGyaU-unsplash.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .container div {
+  width: fit-content;
+}

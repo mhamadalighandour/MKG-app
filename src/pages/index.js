@@ -1,0 +1,9 @@
+export { default as Home } from "./Home/Home";
+export { default as Services } from "./Services/Services";
+export { default as PageSections } from "./Services/PageSections";
+export { default as PageSerTh } from "./Services/PageSerTh";
+export { default as Projects } from "./Projects/Projects";
+export { default as PageTwo } from "./Projects/PageTwo";
+export { default as PageProThree } from "./Projects/PageProThree";
+export { default as About } from "./About/About";
+export { default as Contact } from "./Contact/Contact";

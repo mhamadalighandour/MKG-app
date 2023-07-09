@@ -1,0 +1,35 @@
+.card-abuot p {
+  border-top: 3px solid var(--color-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-abuot h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  z-index: 111;
+}
+@media (max-width: 992px) {
+  .card-abuot p {
+    border-top: none;
+  }
+}
+.card-abuot img.radius-border {
+  position: relative;
+  opacity: 0.6;
+  z-index: -1;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue);
+  border-radius: 10px;
+}
